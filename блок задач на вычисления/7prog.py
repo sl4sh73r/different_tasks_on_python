@@ -1,0 +1,5 @@
+a = int(input())
+b = int(input())
+n = int(input())
+price = n * (100 * a + b)
+print(price // 100, price % 100)
